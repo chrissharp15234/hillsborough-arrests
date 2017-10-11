@@ -19,7 +19,7 @@ public class ImageGrabber{
 	public static void getImages() throws IOException, InterruptedException{	
 				
 		File file = new File ("C:/Users/Stephen/Desktop/Java Programming/images/imagesDB.txt");
-		PrintWriter printWriter = new PrintWriter ("C:/Users/Stephen/Desktop/Java Programming/images/imagesDB.txt");
+		PrintWriter printWriter = new PrintWriter ("C:/Users/csharp/Documents/GitHub/hillsborough-arrests/imagesDB.txt");
 
 		for(int i=1; i < 5; i++){
 			
