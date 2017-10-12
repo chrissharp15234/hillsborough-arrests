@@ -8,7 +8,7 @@ public class SQDBConnection {
 
    //  Database credentials
    static final String USER = "root";
-   static final String PASS = "root";
+   static final String PASS = "NewPass1!";
    
    public static void main(String[] args) {
    Connection conn = null;

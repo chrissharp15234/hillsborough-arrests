@@ -18,10 +18,10 @@ public class ImageGrabber{
 	
 	public static void getImages() throws IOException, InterruptedException{	
 				
-		File file = new File ("C:/Users/Stephen/Desktop/Java Programming/images/imagesDB.txt");
-		PrintWriter printWriter = new PrintWriter ("C:/Users/csharp/Documents/GitHub/hillsborough-arrests/imagesDB.txt");
+		File file = new File ("C:/Users/Guest User/Documents/GitHub/hillsborough-arrests/imagesDB.txt");
+		PrintWriter printWriter = new PrintWriter ("C:/Users/Guest User/Documents/GitHub/hillsborough-arrests/imagesDB.txt");
 
-		for(int i=1; i < 5; i++){
+		for(int i=1; i < 3; i++){
 			
 			String url = "http://florida.arrests.org/index.php?county=14&page=" + i + "&results=56";
 			Document doc = Jsoup.connect(url).userAgent("Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6").referrer("http://www.google.com").get();			
@@ -36,7 +36,7 @@ public class ImageGrabber{
 				   
 			}			
 						
-			TimeUnit.SECONDS.sleep(30);
+			TimeUnit.SECONDS.sleep(10);
 		}				
 		printWriter.close ();   
 	}
