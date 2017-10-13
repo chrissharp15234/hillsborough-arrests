@@ -1,7 +1,7 @@
 #Every file in .idea folder
-hillsborough-arrests.iml
-misc.xml
-modules.xml
-vcs.xml
-workspace.xml
+.idea\hillsborough-arrests.iml
+.idea\misc.xml
+.idea\modules.xml
+.idea\vcs.xml
+.idea\workspace.xml
 jsoup_1_10_3.xml
